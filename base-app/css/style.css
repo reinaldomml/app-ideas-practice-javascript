@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+* {
+    font-family: 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background: #1d1d1d;
+}
+
+button {
+    padding: 10px 30px;
+    margin: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+    color: #1d1d1d;
+    background-color: #fff;
+    width: 300px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(0, 1, 37, 0.7);
+    transition: 0.3s ease;
+    outline: none;
+}
+
+button:hover {
+    color: #fff;
+    background-color: gray;
+    transition: 0.3s ease;
+}
+
+.workspace {
+    max-width: 1024px;
+    height: 10vh;
+    margin: 20px auto;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
